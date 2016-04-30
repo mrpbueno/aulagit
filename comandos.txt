@@ -5,6 +5,7 @@ git add nome_arquivo
 git add . #adiciona todos arquivos
 git commit -m 'descrição'
 git commit -a -m 'descriao - commit de todos os arquivos'
+git push origin master
 
 #cria uma tag
 git tag 0.1.0
