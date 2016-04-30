@@ -1,0 +1,15 @@
+Lista de comandos git
+
+git status
+git add nome_arquivo
+git commit -m 'descrição'
+git commit -a -m 'descriao - commit de todos os arquivos'
+
+#cria uma tag
+git tag 0.1.0
+#envia a tag para o repositório remoto
+git push origin master --tags
+#removendo tag localmente
+git tag -d 0.1.0
+#removendo tag no repositório remoto
+git push origin :refs/tags/0.1.0
