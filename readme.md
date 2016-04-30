@@ -2,4 +2,4 @@
 
 * git status
 * git add readme.md
-* git commit '- Adicionado o arquivo readme'
+* git commit -m '- Adicionado o arquivo readme'
