@@ -2,6 +2,7 @@ Lista de comandos git
 
 git status
 git add nome_arquivo
+git add . #adiciona todos arquivos
 git commit -m 'descrição'
 git commit -a -m 'descriao - commit de todos os arquivos'
 
