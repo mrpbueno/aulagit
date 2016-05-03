@@ -1,17 +1,21 @@
 Lista de comandos git
 
+git config --global user.name "usuario"
+git config --global user.email "usuario@dominio.com"
+git config --global color.ui true
+
 git status
 git add nome_arquivo
 git add . #adiciona todos arquivos
-git commit -m 'descrição'
+git commit -m 'descriÃ§Ã£o'
 git commit -a -m 'descriao - commit de todos os arquivos'
 git push origin master
 
 #cria uma tag
 git tag 0.1.0
-#envia a tag para o repositório remoto
+#envia a tag para o repositÃ³rio remoto
 git push origin master --tags
 #removendo tag localmente
 git tag -d 0.1.0
-#removendo tag no repositório remoto
+#removendo tag no repositÃ³rio remoto
 git push origin :refs/tags/0.1.0
